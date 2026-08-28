@@ -1,0 +1,4 @@
+# Artigos REPROVADOS na verificação anti-alucinação.
+# O Jekyll ignora esta pasta no build: nada aqui aparece no site.
+# É essa propriedade do Jekyll que torna o portão de qualidade uma trava real,
+# e não um aviso. Promover um rascunho é uma decisão humana: mover para _posts/.

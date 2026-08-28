@@ -1,0 +1,31 @@
+title: Inteligência Artificial, em português claro
+description: >-
+  Reportagens sobre inteligência artificial escritas para quem não trabalha com
+  tecnologia. Cada texto é produzido por um agente de IA a partir de fontes
+  públicas e passa por verificação automática das afirmações antes de ser publicado.
+
+url: https://pedroboy975.github.io
+baseurl: /AI-Article-Generator
+
+author: Pedro Maia
+lang: pt-BR
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+
+# O Jekyll ignora _drafts/ no build. É disso que depende o portão de qualidade:
+# artigo reprovado na verificação vai para lá e não aparece no site.
+show_excerpts: true
+
+minima:
+  date_format: "%d de %B de %Y"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
