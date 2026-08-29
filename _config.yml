@@ -10,6 +10,12 @@ baseurl: /AI-Article-Generator
 author: Pedro Maia
 lang: pt-BR
 
+# Sem isto o Jekyll monta os permalinks em UTC. Um post publicado as 23h32 de
+# Brasilia virava /2026/08/29/ enquanto o n8n montava a URL como /2026/08/28/,
+# e o Verify Post Is Live batia num 404 que nao era do build. Aconteceu na
+# estreia do blog, em 2026-08-29.
+timezone: America/Sao_Paulo
+
 theme: minima
 plugins:
   - jekyll-feed
